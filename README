@@ -1,0 +1,30 @@
+Hey, everyone likes probabilistic drum machines!
+
+My friend Greg showed me this, for example:
+http://www.urbanhonking.com/ideasfordozens/2009/02/ruby_arduino_controlling_the_a.html
+
+The idea is, you don't actually program a drum machine, you program a program
+to program a drum machine. Actually it's easier.
+
+To make this work:
+git clone git://github.com/qwzybug/compsognathus.git
+cd compsognathus
+git clone git://github.com/gilesbowkett/archaeopteryx.git
+git clone git://github.com/qwzybug/templarx.git
+
+Now you'll want to wire up some kind of MIDI wizardry. I don't totally
+understand why this is necessary, but here's an easy video about it:
+http://vimeo.com/1503168
+
+Then open compsognathus.rb in Shoes. Party time, right?
+
+There are some good demo probability files in the archaeopteryx repository.
+db_drum_definition.rb is a nice one to start with. Better copy it before you
+tinker, though.
+
+It's really not done yet. If you can make it better please do. Especially, the
+keyboard widget doesn't let you hit just a black key. (How can I stop Shoes
+mouse events from bubbling?) Also, you can't save a blank file in OS X, I
+think.
+
+What else should go in a README...?
